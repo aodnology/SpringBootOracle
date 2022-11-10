@@ -13,4 +13,5 @@ public interface IMovieMapper {
 
     // 수집된 내용을 조회하기
     List<MovieDTO> getMovieInfo(MovieDTO pDTO) throws Exception;
+    
 }

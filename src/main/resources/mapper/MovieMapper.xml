@@ -43,7 +43,7 @@
             CHG_ID
         FROM
             MOVIE_INFO
-        WHERE COLLECT_TIME LIKE #{collect_time}||'%'
+        WHERE COLLECT_TIME LIKE #{collect_time}||'%' <!--like 검색-->
         ORDER BY MOVIE_RANK ASC
     </select>
 </mapper>
