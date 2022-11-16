@@ -14,7 +14,7 @@
     <script>
         // Controller에서 보내준 인식된 문자열, Javascript 언어에서 활용하기 위해 변수 생성함
         const myOcrText = "<%=res%>";
-        // 화면 로딩인 완전히 종료(</html>까지 읽은 다음) 실행됨
+        // 화면 로딩인 완전히 종료(</today_weather.html>까지 읽은 다음) 실행됨
         window.onload = function () {
             // html의 btnTextRead id의 버튼 객체 가져오기
             const btnTextRead = document.getElementById("btnTextRead");
